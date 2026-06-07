@@ -5,6 +5,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Cheerla Shamith - Portfolio</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
             <style>
                 :root {
@@ -1311,11 +1312,11 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>Hi, I'm Ch.Shamith</br><span class="typewriter-text" id="typewriterText">|</span></h1>
-                <p>Full-Stack Developer specializing in React, Node.js, and MongoDB with a passion for AI and ethical hacking. Currently pursuing B.Tech in Computer Science with a 9.7 CGPA.</p>
+                <p>Full-Stack Developer & AI Enthusiast specializing in React, Node.js, and MongoDB. Passionate about building Agentic Workflows, AI Agents, and Generative AI solutions. Currently pursuing a B.Tech in Computer Science with a 9.32 CGPA.</p>
                 <a href="#contact" class="cta-btn">Let's Connect</a>
             </div>
             <div class="hero-image">
-                <img src="about.png" alt="Cheerla Shamith">
+                <img src="myimg.png" alt="Cheerla Shamith">
             </div>
         </div>
     </div>
@@ -1328,16 +1329,16 @@
                     </div>
                     <div class="about-content">
                         <div class="about-image">
-                            <img src="profile1.png" alt="About Shamith">
+                            <img src="mybluesuitimage2.png" alt="About Shamith">
                         </div>
                         <div class="about-text">
                             <h3>Enthusiastic Full-Stack Developer</h3>
                             <p>I'm a passionate Computer Science student with expertise in building modern web applications. My journey in tech has equipped me with strong problem-solving skills and a deep understanding of full-stack development.</p>
-                            <p>Currently pursuing my B.Tech in Computer Science at SASI Institute of Engineering and Technology with a CGPA of 9.7, I'm constantly exploring new technologies and expanding my skillset.</p>
-                            <p>My areas of interest include Software Development, Full-Stack Development, AI-Powered Stock Prediction, and Ethical Hacking.</p>
+                            <p>Currently pursuing my B.Tech in Computer Science at SASI Institute of Engineering and Technology with a CGPA of 9.32, I'm constantly exploring new technologies and expanding my skillset.</p>
+                            <p>My areas of interest include Full-Stack Development, Generative AI, building intelligent AI Agents, Agentic Workflows, and Ethical Hacking.</p>
                             <div class="stats">
                                 <div class="stat-item">
-                                    <h4>9.7</h4>
+                                    <h4>9.32</h4>
                                     <p>CGPA</p>
                                 </div>
                                 <div class="stat-item">
@@ -1358,121 +1359,136 @@
                 </div>
             </section>
          <!-- Skills Section -->
-<section id="skills" class="skills">
+<section id="skills" class="skills" style="background-color: var(--light); padding: 80px 0;">
   <div class="container">
-    <div class="section-title">
+    <div class="section-title" style="margin-bottom: 3rem;">
       <h2><i class="fas fa-laptop-code"></i> Technical Skills</h2>
       <p>Technologies I Work With</p>
     </div>
 
-    <div class="skills-grid">
+    <style>
+        .skills-wrapper {
+            display: block;
+        }
+        .skills-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .skill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: flex-start;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1.5rem;
+        }
+        .skill-row:last-child {
+            border-bottom: none;
+        }
+        .skill-row-title {
+            width: 150px;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.95rem;
+            padding-top: 5px;
+        }
+        .skill-items-grid {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem 2.5rem;
+        }
+        .skill-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            color: #333;
+            font-weight: 500;
+        }
+        .skill-item i {
+            font-size: 1.5rem;
+        }
+        @media (max-width: 992px) {
+            .skill-row-title {
+                width: 100%;
+                margin-bottom: 0.5rem;
+            }
+        }
+    </style>
 
-      <!-- 🧠 Core Frontend Skills -->
-      <div class="skill-card">
-        <i class="fab fa-html5"></i>
-        <h3>HTML5</h3>
-        <p>Semantic markup and web structure</p>
-      </div>
-      <div class="skill-card">
-        <i class="fab fa-css3-alt"></i>
-        <h3>CSS3</h3>
-        <p>Responsive layouts & animations</p>
-      </div>
-      <div class="skill-card">
-        <i class="fab fa-js"></i>
-        <h3>JavaScript (ES6+)</h3>
-        <p>Dynamic behavior & DOM manipulation</p>
-      </div>
-      <div class="skill-card">
-        <i class="fab fa-react"></i>
-        <h3>React.js</h3>
-        <p>Component-driven frontend development</p>
-      </div>
-      
+    <div class="skills-wrapper">
+      <div class="skills-list">
+        <!-- FRONTEND -->
+        <div class="skill-row">
+            <div class="skill-row-title">Frontend</div>
+            <div class="skill-items-grid">
+                <div class="skill-item"><i class="devicon-javascript-plain colored"></i> Javascript</div>
+                <div class="skill-item"><i class="devicon-react-original colored"></i> React.js</div>
+                <div class="skill-item"><i class="devicon-tailwindcss-original colored"></i> Tailwind CSS</div>
+                <div class="skill-item"><i class="devicon-html5-plain colored"></i> HTML5</div>
+                <div class="skill-item"><i class="devicon-css3-plain colored"></i> CSS3</div>
+            </div>
+        </div>
 
-      <!-- ⚙️ Backend Development -->
-      <div class="skill-card">
-        <i class="fab fa-node-js"></i>
-        <h3>Node.js</h3>
-        <p>Server-side JavaScript environment</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-server"></i>
-        <h3>Express.js</h3>
-        <p>RESTful APIs & backend framework</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-rocket"></i>
-        <h3>FastAPI</h3>
-        <p>High-performance Python backend</p>
-      </div>
+        <!-- BACKEND -->
+        <div class="skill-row">
+            <div class="skill-row-title">Backend</div>
+            <div class="skill-items-grid">
+                <div class="skill-item"><i class="devicon-nodejs-plain colored"></i> Node.js</div>
+                <div class="skill-item"><i class="devicon-express-original" style="color: #333"></i> Express.js</div>
+                <div class="skill-item"><i class="devicon-fastapi-plain colored"></i> FastAPI</div>
+                <div class="skill-item"><i class="fas fa-network-wired" style="color: var(--primary)"></i> REST APIs</div>
+                <div class="skill-item"><i class="fas fa-key" style="color: var(--accent)"></i> JWT</div>
+            </div>
+        </div>
 
-      <!-- 🗃️ Databases -->
-      <div class="skill-card">
-        <i class="fas fa-database"></i>
-        <h3>SQL</h3>
-        <p>Relational database design & queries</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-leaf"></i>
-        <h3>MongoDB</h3>
-        <p>NoSQL document-based data handling</p>
-      </div>
+        <!-- LANGUAGES & DB -->
+        <div class="skill-row">
+            <div class="skill-row-title">Languages & DB</div>
+            <div class="skill-items-grid">
+                <div class="skill-item"><i class="devicon-python-plain colored"></i> Python</div>
+                <div class="skill-item"><i class="devicon-java-plain colored"></i> Java</div>
+                <div class="skill-item"><i class="devicon-c-plain colored"></i> C</div>
+                <div class="skill-item"><i class="devicon-mongodb-plain colored"></i> MongoDB</div>
+                <div class="skill-item"><i class="devicon-mysql-plain colored"></i> MySQL</div>
+                <div class="skill-item"><i class="devicon-firebase-plain colored"></i> Firebase</div>
+                <div class="skill-item"><i class="devicon-supabase-plain colored"></i> Supabase</div>
+            </div>
+        </div>
 
-      <!-- 🧩 Programming & Problem Solving -->
-      <div class="skill-card">
-        <i class="fab fa-python"></i>
-        <h3>Python</h3>
-        <p>Data structures, algorithms & automation</p>
-      </div>
-      <div class="skill-card">
-        <i class="fab fa-java"></i>
-        <h3>Java</h3>
-        <p>OOP concepts & backend development</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-c"></i>
-        <h3>C Language</h3>
-        <p>Core programming logic & fundamentals</p>
-      </div>
+        <!-- AI / ML -->
+        <div class="skill-row">
+            <div class="skill-row-title">AI / ML</div>
+            <div class="skill-items-grid">
+                <div class="skill-item"><i class="devicon-tensorflow-original colored"></i> TensorFlow</div>
+                <div class="skill-item"><i class="devicon-pytorch-original colored"></i> PyTorch</div>
+                <div class="skill-item"><i class="fas fa-brain" style="color: #e67e22"></i> scikit-learn</div>
+                <div class="skill-item"><i class="fas fa-microphone" style="color: #3498db"></i> Whisper ASR</div>
+                <div class="skill-item"><i class="fas fa-robot" style="color: #9b59b6"></i> LLaMA 3</div>
+                <div class="skill-item"><i class="fas fa-project-diagram" style="color: #2ecc71"></i> RAG</div>
+                <div class="skill-item"><i class="fas fa-magic" style="color: #f1c40f"></i> Gemini API</div>
+            </div>
+        </div>
 
-      <!-- 🔗 Tools & Platforms -->
-      <div class="skill-card">
-        <i class="fab fa-github"></i>
-        <h3>Git & GitHub</h3>
-        <p>Version control & team collaboration</p>
+        <!-- TOOLS -->
+        <div class="skill-row">
+            <div class="skill-row-title">Tools</div>
+            <div class="skill-items-grid">
+                <div class="skill-item"><i class="devicon-git-plain colored"></i> Git</div>
+                <div class="skill-item"><i class="devicon-github-original" style="color: #333"></i> GitHub</div>
+                <div class="skill-item"><i class="devicon-docker-plain colored"></i> Docker</div>
+                <div class="skill-item"><i class="devicon-amazonwebservices-original colored"></i> AWS</div>
+                <div class="skill-item"><i class="devicon-vercel-original" style="color: #333"></i> Vercel</div>
+                <div class="skill-item"><i class="devicon-netlify-plain colored"></i> Netlify</div>
+            </div>
+        </div>
       </div>
-      
-      <div class="skill-card">
-        <i class="fas fa-box-open"></i>
-        <h3>REST APIs</h3>
-        <p>Building and integrating APIs</p>
-      </div>
-
-      <!-- 🤖 AI & Emerging Tech -->
-      <div class="skill-card">
-        <i class="fas fa-robot"></i>
-        <h3>Prompt Engineering</h3>
-        <p>AI optimization and custom prompt design</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-brain"></i>
-        <h3>Generative AI</h3>
-        <p>Building AI-driven interactive systems</p>
-      </div>
-
-      <!-- 📊 Others -->
-      <div class="skill-card">
-        <i class="fas fa-file-excel"></i>
-        <h3>Excel</h3>
-        <p>Data analysis and spreadsheet automation</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-comments"></i>
-        <h3>Communication & Leadership</h3>
-        <p>Effective teamwork & project management</p>
-      </div>
-
     </div>
   </div>
 </section>
@@ -1484,6 +1500,59 @@
         </div>
         
         <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="graminsahayak.png" alt="Gramin Sahayak Project">
+                </div>
+                <div class="project-content">
+                    <h3>Gramin Sahayak</h3>
+                    <p>AI civic platform for rural India with multilingual voice/text chatbot. Shortlisted nationwide for AWS x Hack2skill. The platform aims to bridge the digital divide by offering intuitive, localized interfaces. It empowers rural citizens to easily discover and apply for government schemes.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">AI Chatbot</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://graminsahayak.vercel.app/" class="project-link view-live" target="_blank">View Live</a>
+                        <a href="https://github.com/cheerlashamith/graminsahayak" class="project-link view-code" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="smartsupport.png" alt="SmartSupport Project">
+                </div>
+                <div class="project-content">
+                    <h3>SmartSupport</h3>
+                    <p>AI customer support triage system that auto-classifies tickets using vector search and Gemini API. It enhances agent efficiency by instantly summarizing complex conversations and prioritizing urgent requests. The intelligent routing reduces resolution time by over 40%.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Gemini API</span>
+                        <span class="tech-tag">Vector Search</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://jarvis-ai1111.netlify.app/" class="project-link view-live" target="_blank">View Live</a>
+                        <a href="https://github.com/cheerlashamith/jarvis/" class="project-link view-code" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="meetminds.png" alt="MeetMinds Project">
+                </div>
+                <div class="project-content">
+                    <h3>MeetMinds</h3>
+                    <p>100% offline AI meeting intelligence platform transcribing, diarizing, and generating minutes. (In Progress) It prioritizes extreme data privacy by keeping all processing localized to the device. Built with advanced speech recognition to distinguish multiple speakers effortlessly.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Offline AI</span>
+                        <span class="tech-tag">Speech Recognition</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link view-live" style="pointer-events: none; opacity: 0.5;">In Progress</a>
+                    </div>
+                </div>
+            </div>
 
             <div class="project-card">
                 <div class="project-img">
@@ -1542,24 +1611,7 @@
                 </div>
             </div>
             
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="shopwave.png" alt="ShopWave Project">
-                </div>
-                <div class="project-content">
-                    <h3>ShopWave</h3>
-                    <p>ShopWave is a dynamic and interactive E-Commerce web platform designed using HTML, CSS, and JavaScript. The website provides users with a seamless and visually appealing shopping experience</p>
-                        <span class="tech-tag">React.js</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">Express.js</span>
-                        <span class="tech-tag">Node.js</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://shamithcheerla.github.io/shopwave" class="project-link view-live" target="_blank">View Live</a>
-                        <a href="https://github.com/shamithcheerla/shopwave" class="project-link view-code" target="_blank">View Code</a>
-                    </div>
-                </div>
-            </div>
+
         </div> </div>
 </section>
             
@@ -1579,39 +1631,38 @@
                             <span class="timeline-date">2023 - 2027</span>
                             <h3>B.Tech in Computer Science</h3>
                             <h4>SASI Institute of Engineering and Technology</h4>
-                            <p>Currently pursuing B.Tech with a CGPA of 9.7. Focusing on computer science fundamentals, web development, and AI.</p>
+                            <p>Currently pursuing B.Tech with a CGPA of 9.32 (Sem I-VI). Focusing on computer science fundamentals, web development, and AI.</p>
                         </div>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-content">
-                            <span class="timeline-date">March 2025 - April 2025</span>
-                            <h3>Web Development Intern</h3>
-                            <h4>Code Alpha</h4>
-                            <p>Implemented over 10 responsive front-end features, improving website interactivity. Optimized UI components and streamlined CSS, contributing to a 15% reduction in page load times.</p>
-                            <a href="https://drive.google.com/file/d/1fLiYlho2vBdGn_EpYFsDvTHljYzXYIEb/view?usp=sharing" target="_blank" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+                            <span class="timeline-date">May 2026 - Jul 2026</span>
+                            <h3>Research Intern</h3>
+                            <h4>NIT Andhra Pradesh</h4>
+                            <p>Entrepreneurship-driven project exploring AI agents, workflow automation, and prompt engineering under faculty supervision. Currently in rapid prototyping phase; scoping real-world applications for AI agents while building core automation modules and testing prompt engineering strategies.</p>
                         </div>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-content">
-                            <span class="timeline-date">February 2025 - March 2025</span>
-                            <h3>Web Development Intern</h3>
-                            <h4>InternPe</h4>
-                            <p>Engineered and delivered 3+ web projects, including a dynamic calculator, a full-featured to-do list, and an e-commerce prototype (ShopWave), focusing on responsive UI/UX.</p>
-                            <a href="https://drive.google.com/file/d/1-sjgo42JfJPDscuu5z7ZVYbmmZW6Cyyd/view?usp=sharing" target="_blank" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+                            <span class="timeline-date">May 2026 - Jul 2026</span>
+                            <h3>Research Intern</h3>
+                            <h4>NIT Tiruchirappalli</h4>
+                            <p>Structured learning covering AI & ML concepts, mathematical foundations for ML, Web Technologies, Programming, and DSA under faculty guidance. Hands-on exposure to core AI/ML theory and applied development.</p>
                         </div>
                     </div>
-                   
+
                     <div class="timeline-item">
                         <div class="timeline-content">
-                            <span class="timeline-date">February 2025 - March 2025</span>
-                            <h3>Front-End Development Intern</h3>
-                            <h4>Cognifyz Technologies</h4>
-                            <p>Implemented 15+ custom CSS animations and interactive hover effects across key web pages, which enhanced the overall user experience and engagement.</p>
-                            <a href="https://drive.google.com/file/d/1Fk9s9CeBYQ-IakQxrl_FxrBgdFb8YQ5e/view?usp=sharing" target="_blank" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+                            <span class="timeline-date">Jan 2026 - Apr 2026</span>
+                            <h3>ML Research Intern</h3>
+                            <h4>UCSI University, Kuala Lumpur (Remote)</h4>
+                            <p>Evaluated 10 ML algorithms and 2 DL models for diabetes classification across 5 medical datasets using Python, scikit-learn, and pandas. AdaBoost achieved 99.47% accuracy; results compiled into team comparative analysis report.</p>
                         </div>
                     </div>
+
+
 
                     <div class="timeline-item">
                         <div class="timeline-content">
@@ -1757,15 +1808,48 @@
             <div class="container">
                 <div class="section-title">
                     <h2>Achievements & Activities</h2>
+                    <p>A highlight of some of my most significant technical and academic accomplishments.</p>
                 </div>
                 <div class="achievements-grid">
                    
                     <div class="achievement-card">
                         <div class="achievement-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>CodeChef 3 Star Rating</h3>
+                        <p>Ranked as a 3 Star Coder on CodeChef. Solved over 2,000 algorithmic and data structure problems across various competitive programming platforms.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <h3>AWS × Hack2skill Finalist</h3>
+                        <p>Shortlisted nationwide for the AWS x Hack2skill hackathon for developing Gramin Sahayak, an AI civic platform for rural India. $100 AWS credits awarded for prototype phase.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h3>MOSPI, Govt. of India</h3>
+                        <p>Selected under Group A from a large national applicant pool; Ministry of Statistics & Programme Implementation.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Academic Excellence</h3>
+                        <p>Maintained a strong academic record with a 9.32 CGPA (Sem I-VI) at SASI Institute of Technology & Engineering. Secured 98.2% in Intermediate Education and 100% in SSC.</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
                             <i class="fas fa-trophy"></i>
                         </div>
                         <h3>PRAYATNA 2.0 National Hackathon</h3>
-                        <p>Competed in a national-level hackathon, developing innovative solutions and collaborating effectively under pressure.</p>
+                        <p>Competed at national level; built working prototype under time constraint with team.</p>
                         <a href="https://drive.google.com/file/d/1QPGMXciPK-iUjcasOpO7DzzuMG0lCy-D/view?usp=sharing" target="_blank" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
                     </div>
 
